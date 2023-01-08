@@ -114,7 +114,7 @@ void loop() {
   <img src="https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/02/POWER-MODES.jpg?w=667&quality=100&strip=all&ssl=1" />
 </p>
 
-3. Modifier le code existant en remplaçant la boucle de lecture dans le loop par une mesure unique par exécution du code, suivie de 5s en mode deep sleep. La fonction `loop` doit alors disparaître.
+3. Modifier le code existant en remplaçant la boucle de lecture dans le loop par une mesure unique par exécution du code, suivie de 5s en mode deep sleep. Toute la logique du code est déplacée dans la fonction `setup`, la fonction `loop` doit alors être vide.
 4. Vérifier que le code fonctionne toujours avec la gestion de l'alimentation.
 5. Créer le tag "e3" avec `git tag e3`
 6. Tagguer le dernier `commit` à corriger avec "e3" avec la commande `git tag e3 HEAD`. Cette commande utilise "HEAD" comme référence au commit le plus récent.
