@@ -1,6 +1,6 @@
 #include <Arduino.h>
 #include <Adafruit_Sensor.h>
-#include <DHT.h>
+#include <DHT.h> 
 #include <DHT_U.h>
 
 // Define the pins that we will use
