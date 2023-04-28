@@ -1,4 +1,4 @@
-# Prototypage d'un POC
+# 
 
 ## <ins>Prérequis</ins>
 - Avoir un groupe
