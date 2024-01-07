@@ -93,7 +93,7 @@ void loop() {
   // Afficher la température avec un peu de formatage
 }
 ```
-4. Utiliser le montage suggéré dans la [datasheet du DHT11](https://www.mouser.com/datasheet/2/758/DHT11-Technical-Data-Sheet-Translated-Version-1143054.pdf) pour installer le capteur d'humidité et température. **LE PIN 3 N'EST PAS UTILISE**. La LED n'est pas utilisée dans cette étape mais le sera plus tard.
+4. Utiliser le montage suggéré dans la [datasheet du DHT11](https://www.mouser.com/datasheet/2/758/DHT11-Technical-Data-Sheet-Translated-Version-1143054.pdf) pour installer le capteur d'humidité et température. **LE PIN 3 N'EST PAS UTILISE**. La LED n'est pas utilisée dans cette étape mais le sera plus tard. **ATTENTION** à l'orientation des pins, le capteur **VA CRAMER** si branché avec la mauvaise polarité...
 5. Utiliser Platformio pour installer les bibliothèques `Adafruit Unified Sensor` et `DHT sensor library`.
 6. Utiliser l'exemple fourni sur la page de la bibliothèque `DHT sensor library` pour compléter le code fourni en prenant les mesures et en affichant les résultats régulièrement.
 7. Vérifier le bon fonctionnement du montage
