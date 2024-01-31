@@ -10,7 +10,7 @@
 ---
 
 ## <ins>Préparation</ins>
-1. `Forkez` le projet du TP sur votre compte github avec le nom **"PDP_ETUDIANTS_01_TD`<NUMERO_DE_TD>`\_GP`<NUMERO_DE_GROUPE>`"**. Par exemple, le groupe 7 du TD 2 devra créer le repo "PDP_ETUDIANT_01_TD02_GP07"
+1. `Forkez` le projet du TP sur votre compte github avec le nom **"PDP_ETUDIANTS_01_TD`<NUMERO_DE_TD>`\_GP`<NUMERO_DE_GROUPE>`"**. Par exemple, le groupe 7 du TD 2 devra créer le repo "PDP_ETUDIANTS_01_TD02_GP07"
 2. Clonez **votre fork** sur votre machine avec `git clone <url>`
 3. Ouvrir le projet avec PlatformIO (sinon les options de compilation et téléversement peuvent ne pas apparaître)
 4. Compléter le code pour compléter chaque étape et `commit` **REGULIEREMENT**
