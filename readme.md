@@ -63,7 +63,8 @@ void loop() {
 6. Connecter une LED sur le bon pin en la protégeant avec une résistance de ~330Ω.
 7. Vérifier le bon fonctionnement du montage, la LED doit clignoter.
 9. Tagguer le dernier `commit` à corriger avec "e1" avec la commande `git tag e1 HEAD`. Cette commande utilise "HEAD" comme référence au commit le plus récent.
-10. Publier vos `commit` avec vos tags avec `git push origin --tags`
+10. Publier vos `commits` avec `git push -u origin e1`
+11. Publier vos tags avec `git push origin --tags`
 ---
 
 ## <ins>Etape 2 - Capteur et mesures</ins>
@@ -97,8 +98,9 @@ void loop() {
 5. Utiliser Platformio pour installer les bibliothèques `Adafruit Unified Sensor` et `DHT sensor library`.
 6. Utiliser l'exemple fourni sur la page de la bibliothèque `DHT sensor library` pour compléter le code fourni en prenant les mesures et en affichant les résultats régulièrement.
 7. Vérifier le bon fonctionnement du montage
-9. Tagguer le dernier `commit` à corriger avec "e2" avec la commande `git tag e2 HEAD`. Cette commande utilise "HEAD" comme référence au commit le plus récent.
-10. Publier vos `commit` avec vos tags avec `git push origin --tags`
+8. Tagguer le dernier `commit` à corriger avec "e2" avec la commande `git tag e2 HEAD`. Cette commande utilise "HEAD" comme référence au commit le plus récent.
+9. Publier vos `commits` avec `git push -u origin e2`
+10. Publier vos tags avec `git push origin --tags`
 
 ---
 
@@ -115,6 +117,7 @@ void loop() {
 3. Modifier le code existant en remplaçant la boucle de lecture dans le loop par une mesure unique par exécution du code, suivie de 5s en mode deep sleep. Toute la logique du code est déplacée dans la fonction `setup`, la fonction `loop` doit alors être vide.
 4. Vérifier que le code fonctionne toujours avec la gestion de l'alimentation.
 6. Tagguer le dernier `commit` à corriger avec "e3" avec la commande `git tag e3 HEAD`. Cette commande utilise "HEAD" comme référence au commit le plus récent.
-7. Publier vos `commit` avec vos tags avec `git push origin --tags`
+7. Publier vos `commits` avec `git push -u origin e3`
+8. Publier vos tags avec `git push origin --tags`
 
 ---
