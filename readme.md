@@ -42,7 +42,7 @@ L'évaluation de votre travail sera réalisée sur les critères suivants :
 #include <Arduino.h>
 
 // Define the pins that we will use
-#define SENSOR 33
+#define CAPTEUR 33
 #define LED 26
 
 void setup() {
@@ -78,7 +78,7 @@ void loop() {
 #include <Arduino.h>
 
 // Define the pins that we will use
-#define SENSOR 33
+#define CAPTEUR 33
 #define LED 26
 
 void setup() {
